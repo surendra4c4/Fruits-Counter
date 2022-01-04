@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.yellow-container {
+  background-color: #ffd569;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.white-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+  height: 60%;
+  border-radius: 15px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.span-class {
+  color: #ffd569;
+}
+.image-class {
+  height: 170px;
+  width: 130px;
+}
+
+.btn-class {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  font-size: 9px;
+  padding: 5px;
+  margin-left: 30px;
+}
